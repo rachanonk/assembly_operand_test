@@ -17,7 +17,7 @@ _start:
     ; set num2's value to rcx
     mov ecx, num2
     ; multiply the operands
-    imul ecx,edx
+    imul ecx
 	;move the answer into eax
     ; compare rax and 150
     cmp eax, 5000
